@@ -21,14 +21,14 @@ Ctrl + wl     # move cursor to the right window (vertical split)
 Ctrl + wj     # move cursor to the window below (horizontal split)
 Ctrl + wk     # move cursor to the window above (horizontal split)
 ```
-###Hexmode
+### Hexmode
 ```
 :!xxd         #convert file to hexmode
 :!xxd -r      #convert file back to plain text mode
 :set ft=xxd   #Highlight hex text
 ```
 
-###Search
+### Search
 ```
 :%s/old/new/g  # replace all old with new throughout file
 :%s/old/new/gc # replace all old with new throughout file with confirmations
